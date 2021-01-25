@@ -1,6 +1,6 @@
 language: java
 script:
-  - "mvn -f YGOAfinal/pom.xml clean install cobertura:cobertura"
+  - "mvn -f YGOA.final/pom.xml clean install cobertura:cobertura"
 jdk:
   - openjdk8
 after_success:
